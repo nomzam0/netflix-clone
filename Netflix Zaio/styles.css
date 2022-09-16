@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 16px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-title{
+    font-size: 3.225rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.card-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.email-form-tittle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 3.2rem;
+    color: white;
+    justify-content: center;
+
+}
+
+.navbar{
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0px 45px;
+    padding-top: 45px
+    
+}
+.navbar img{
+    height: 32px;
+}
+.navbar >a{
+    padding: 7px 17px;
+    /* float: right; */
+    color: white;
+    /* line-height: normal; */
+    background-color: red;
+    text-decoration: none;
+    border-radius: 3px;
+     height: 34px; 
+}
+
+.banner-wrap{
+    background-image: url(./assets/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    border-bottom: 10px solid #222222;
+    position: relative;
+    z-index: 1;
+    
+    /* width: 100vh; */
+
+}
+.overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    opacity: 60%;
+    top: 0;
+
+}
+
+.banner-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    text-align: center;
+    /* height: calc(100%-45px); */
+
+
+}
+.get-started-form{
+   height: 60px; 
+   display: flex;
+}
+.get-started-form input{
+    height: 100;
+    width: 450px;
+    padding-left: 10px;
+}
+
+.get-started-form button{
+    background-color: red;
+    color: white;
+    font-size: 1.625rem;
+    border: none;
+    min-height: 60px;
+    padding: 0 26px;
+
+}
+
+.info-container{
+    background: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 10px solid #222222;
+
+}
+
+.tv-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-container video{
+    position: absolute;
+
+}
+
+.tv-container img{
+    z-index: 1;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    background: black;
+}
+
+.footer-items{
+    margin: 0 47.5px;
+    padding: 70px 45px ;
+}
+.footer-top{
+    margin-bottom: 30px;
+}
+
+.footer ul li, .Questions-title {
+    color: #757575;
+}
+
+.footer-links li{
+    font-size: 13px;
+    line-height: 2;
+}
+.footer ul li:hover, .Questions-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-links{
+    list-style-type: none;
+    columns: 4;
+    padding: 0;
+}
+.language{
+    height: 53px;
+    width: 142px;
+    display: flex;
+    color: #999999;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid #999999;
+    padding: 0 10px;
+    margin-top: 30px;
+    border-radius: 3;
+}
+
+.language select{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #999999;
+    appearance: none;
+    background: black;
+    background: url(./assets/carot.png) no-repeat 100%;
+
+}
+
+.footer-country{
+    font-size: 13px;
+    margin-top: 34px;
+    color: #757575;
+}
